@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="Stylesheets/contacts.css"/>
+    <link rel="stylesheet" href="Stylesheets/general.css"/>
+    <link rel="stylesheet" href="Stylesheets/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Titillium Web:wght@400;600&display=swap"/
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <script
+        src="https://kit.fontawesome.com/66aa7c98b3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <div class="page-header">
+          <div class="logo">
+            <a href="home.html">
+            <img src="Images/logo.png" alt="">
+          </a>
+          </div>
+          <a id="menu-icon" class="menu-icon" onclick="onMenuClick()">
+            <i class="fa fa-bars"></i>
+          </a>
+    
+          <div id="navigation-bar" class="nav-bar">
+            <a href="home.html" class="active">Acasă</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="cont.html">Contul meu</a>
+            <a href="contacte.html">Contacte</a>
+          </div>
+
+          <!--Login-->
+          <div class="header-right">
+            <a href="login.html">
+                    <div class="login-container">
+            <div class="login-text">Login</div>
+                </div>
+              </a>
+            <!--Cos-->
+            <div class="element">
+              <a href="cos.html">
+            <img src="Images/cos.png" alt="">
+          </a>
+            </div>
+            <!--Inima-->
+            <div class="element">
+              <a href="favorite.html">
+            <img src="Images/inima.png" alt="">
+          </a>
+            </div>
+        </div>
+        </div>
+    
+  </header>
+
+    <div class="contacte">
+      <img class="facebook-icon" alt="" />
+      <section class="content">
+        <div class="location-info">
+          <div class="location-details">
+            <div class="location-content">
+              <div class="location-address">
+                <div class="address-container">
+                  <div class="address-highlight">
+                    <div class="address-background"></div>
+                  </div>
+                  <h3 class="mb-house-toronto">GearGarden Location:</h3>
+                </div>
+                <div class="contact-details">
+                  <div class="phone-and-hours">
+                    <div class="contact-options">
+                      <div class="phone-option">
+                        <div class="phone">Phone:</div>
+                        <div class="placeholder">+373 60 298 920</div>
+                      </div>
+                    </div>
+                    <div class="contact-separator"></div>
+                  </div>
+                  <div class="frame-parent">
+                    <div class="rectangle-wrapper">
+                      <div class="frame-child"></div>
+                    </div>
+                    <h3 class="online-store">Online Store & Partnership:</h3>
+                  </div>
+                  <div class="hours-option">
+                    <div class="hours-content">
+                      <div class="phone1">Phone:</div>
+                      <div class="placeholder1">+373 60 298 920</div>
+                    </div>
+                    <div class="hours-details">
+                      <div class="hours-info">
+                        <div class="hours-of-operation">
+                          Hours of operation:
+                        </div>
+                        <div class="tuesday-to-saturday-container">
+                          <p class="tuesday-to-saturday">Tuesday to Saturday</p>
+                          <p class="pm-9pm">1PM - 9PM EST</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contact-details-inner">
+                    <div class="frame-item"></div>
+                  </div>
+                  <div class="social-links">
+                    <div class="social-highlight">
+                      <div class="social-background"></div>
+                    </div>
+                    <div class="social-container">
+                      <h3 class="find-us">Find us:</h3>
+                      <div class="znacioase-3">
+                        <a href="404.html">
+                        <img
+                          class="icbaseline-facebook-icon"
+                          loading="lazy"
+                          alt=""
+                          src="./Images/icbaselinefacebook.svg"
+                        />
+                      </a>
+                        <a href="404.html">
+                        <img
+                          class="mditwitter-icon"
+                          loading="lazy"
+                          alt=""
+                          src="./Images/mditwitter.svg"
+                        />
+                      </a> 
+                      <a href="404.html">
+                        <img
+                          class="mdiyoutube-icon"
+                          loading="lazy"
+                          alt=""
+                          src="./Images/mdiyoutube.svg"
+                        />
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <div class="form-container">
+                <div class="form-heading">
+                  <div class="heading-highlight">
+                    <div class="heading-background"></div>
+                  </div>
+                  <h3 class="have-a-question">Have a question? Send us a message.</h3>
+                </div>
+              </div>
+              <form class="form-inputs" action="https://formsubmit.co/ianiovita005@gmail.com" method="POST">
+                <div class="name-email">
+                  <div class="phone-number">
+                    <input class="name" name="name" placeholder="Name" type="text" required />
+                  </div>
+                  <div class="input">
+                    <input class="e-mail-address" name="email" placeholder="E-mail address" type="email" required />
+                  </div>
+                </div>
+                <div class="input1">
+                  <input class="phone-number1" name="phone" placeholder="Phone number" type="text" required />
+                </div>
+                <div class="message-input">
+                  <textarea class="input2" name="message" placeholder="Message: Don’t forget to mention your model and year" rows="7" cols="32" required></textarea>
+                </div>
+                <div class="submit-button">
+                  <button class="btn" type="submit">
+                    <div class="e250-bluetec">Send a message</div>
+                  </button>
+                </div>
+              </form>
+            </div>
+            
+            
+          </div>
+        </div>
+       
+        </div>
+      </section>
+      <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.6725327107306!2d28.86697027588896!3d46.98776623050661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c9794fce605dfb%3A0x3228800d4e344deb!2sC%C4%83minurile%201%2C%202%20CEITI!5e0!3m2!1sru!2s!4v1716916360530!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
+      </div>
+      <!--FOOTER-->
+      <div class="footer1">
+        <a href="home.html">
+            <div class="heading1">
+                <img src="Images/white-logo.png" alt="">
+            </div>
+        </a>
+        <div class="content1">
+            <div class="services1">
+                <h4>Servicii</h4>
+                <p><a href="catalog.html">Catalog-ul</a></p>
+                <p><a href="favorite.html">Favorite</a></p>
+                <p><a href="comanda.html">Comenzi</a></p>
+                <p><a href="login.html">Logare</a></p>
+            </div>
+            <div class="social-media1">
+                <h4>Social</h4>
+                <p>
+                    <a href="#"
+                        ><i class="fab fa-linkedin"></i> Linkedin</a
+                    >
+                </p>
+                <p>
+                    <a href="#"
+                        ><i class="fab fa-twitter"></i> Twitter</a
+                    >
+                </p>
+                <p>
+                    <a href="https://github.com/farazc60"
+                        ><i class="fab fa-github"></i> Github</a
+                    >
+                </p>
+                <p>
+                    <a href="https://www.facebook.com/codewithfaraz"
+                        ><i class="fab fa-facebook"></i> Facebook</a
+                    >
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/codewithfaraz"
+                        ><i class="fab fa-instagram"></i> Instagram</a
+                    >
+                </p>
+            </div>
+            <div class="links1">
+                <h4>Link-uri</h4>
+                <p><a href="home.html">Acasă</a></p>
+                <p><a href="catalog.html">Catalog</a></p>
+                <p><a href="cont.html">Contul meu</a></p>
+                <p><a href="contacte.html">Contacte</a></p>
+            </div>
+            <div class="details1">
+                <h4 class="address1">Adresa</h4>
+                <p>
+                    Căminul Nr 1, Str. Cuza Vodă, Nr. 3/2,<br> <br> Chișinău,
+                    Republica Moldova
+                </p>
+                <h4 class="mobile1">Telefon</h4>
+                <p><a href="#">+373 60 298 920</a></p>
+                <h4 class="mail1">Email</h4>
+                <p><a href="#">ianiovita005@gmail.com</a></p>
+            </div>
+        </div>
+        <footer>
+            <hr />
+            © 2024 Code and Design by Ianik ❤
+        </footer>
+    </div>
+        </section>
+    </div>
+    <script src="Scripts/burger.js">
+      </script>
+  </body>
+</html>

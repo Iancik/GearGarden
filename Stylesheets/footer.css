@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: Popins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer1 {
+    background-color: #051C34;
+    color: #fefefe;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer1 .heading1 {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.heading1 img {
+    width: 15%;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+
+.footer1 .content1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.footer1 .content1 p {
+    margin-bottom: 1.3rem;
+}
+
+.footer1 .content1 a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.footer1 .content1 a:hover {
+    border-bottom: 3px solid #1572D3;
+}
+
+.footer1 .content1 h4 {
+    margin-bottom: 1.3rem;
+    font-size: 19px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer hr {
+    margin: 2rem 0;
+}
+
+@media (max-width: 767px) {
+    .footer1 .content1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+   
+    .heading1 img {
+        width: 30%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+  
+    .footer1 {
+        position: unset;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer1 .content1,
+    .footer1 {
+        font-size: 14px;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+    .footer1 {
+        position: unset;
+    }
+}

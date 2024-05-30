@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="Stylesheets/catalog.css" />
+    <link rel="stylesheet" href="Stylesheets/catalog1.css" />
+    <link rel="stylesheet" href="Stylesheets/general.css" />
+    <link rel="stylesheet" href="Stylesheets/footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <script
+    src="https://kit.fontawesome.com/66aa7c98b3.js"
+  crossorigin="anonymous"
+></script>
+    <script
+    src="https://kit.fontawesome.com/66aa7c98b3.js"
+    crossorigin="anonymous"
+    ></script>
+
+
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Titillium Web:wght@400&display=swap"
+    />
+  </head>
+  <body>
+
+    <!--HEADER-->
+    <header>
+      <div class="page-header">
+          <div class="logo">
+            <a href="home.html">
+            <img src="Images/logo.png" alt="">
+          </a>
+          </div>
+          <a id="menu-icon" class="menu-icon" onclick="onMenuClick()">
+            <i class="fa fa-bars"></i>
+          </a>
+    
+          <div id="navigation-bar" class="nav-bar">
+            <a href="home.html" class="active">Acasă</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="cont.html">Contul meu</a>
+            <a href="contacte.html">Contacte</a>
+          </div>
+
+          <!--Login-->
+          <div class="header-right">
+            <a href="login.html">
+                    <div class="login-container">
+            <div class="login-text">Login</div>
+                </div>
+              </a>
+            <!--Cos-->
+            <div class="element">
+              <a href="cos.html">
+            <img src="Images/cos.png" alt="">
+          </a>
+            </div>
+            <!--Inima-->
+            <div class="element">
+              <a href="favorite.html">
+            <img src="Images/inima.png" alt="">
+          </a>
+            </div>
+        </div>
+        </div>
+    
+  </header>
+
+    <div class="catalog-start">
+      
+      <img
+        class="maintenance-bg-icon"
+        loading="lazy"
+        alt=""
+        src="./Images/maintenancebg@2x.png"
+      />
+
+      <section class="content">
+        <img
+          class="ecu-tunes-bg-icon"
+          loading="lazy"
+          alt=""
+          src="./Images/ecutunesbg@2x.png"
+        />
+
+        <div class="search-wrapper">
+          <div class="search">
+            <div class="container">
+              <button id="searchButton" class="button">CĂUTAȚI PRODUS</button>
+              <input type="text" id="searchBar" class="search-bar" placeholder="Căutați produs..." style="display: none;">
+          </div>
+            <h1 class="cele-mai-corecte-container">
+              <span class="cele-mai-corecte">Cele mai corecte prețuri la </span>
+              <span class="gear-garden1">GEAR GARDEN</span>
+            </h1>
+          </div>
+        </div>
+      </section>
+      <section class="products-preview">
+        <div class="categories">
+          <div class="footer-top">
+            <div class="back"></div>
+            <div class="footer-lines"></div>
+          </div>
+    
+          <div class="card-container">
+           
+            <div class="card">
+              <a href="produse.html">
+                <img src="Images/terie.avif" alt="Image 1">
+                <p>Baterii</p>
+              </a>
+              <button class="card-button">Detalii</button>
+
+            </div>
+        
+            <div class="card">
+                <img src="Images/frana.avif" alt="Image 2">
+                <p>Plăcuțe frână</p>
+                <button class="card-button">Detalii</button>
+            </div>
+            <div class="card">
+                <img src="Images/img3.png" alt="Image 3">
+                <p>Discuri frână</p>
+                <button class="card-button">Detalii</button>
+            </div>
+            <div class="card">
+                <img src="Images/img4.png" alt="Image 4">
+                <p>Discuri frână</p>
+                <button class="card-button">Detalii</button>
+            </div>
+            <div class="card">
+                <img src="Images/img5.png" alt="Image 5">
+                <p>Bujie</p>
+                <button class="card-button">Detalii</button>
+            </div>
+            <div class="card">
+                <img src="Images/img6.png" alt="Image 6">
+                <p>Becuri</p>
+                <button class="card-button">Detalii</button>
+            </div>
+            <div class="card">
+                <img src="Images/img7.png" alt="Image 1">
+                <p>Filtre ulei</p>
+                <button class="card-button">Detalii</button>
+            </div>
+            <div class="card">
+                <img src="Images/img8.png" alt="Image 2">
+                <p>Alternator</p>
+                <button class="card-button">Detalii</button>
+            </div>
+            <div class="card">
+                <img src="Images/img9.png" alt="Image 3">
+                <p>Suspensii</p>
+                <button class="card-button">Detalii</button>
+            </div>
+            <div class="card">
+                <img src="Images/img10.png" alt="Image 4">
+                <p>Filtre aer</p>
+                <button class="card-button">Detalii</button>
+            </div>
+            <div class="card">
+                <img src="Images/img11.png" alt="Image 5">
+                <p>Filtre cabin aer</p>
+                <button class="card-button">Detalii</button>
+            </div>
+            <div class="card">
+                <img src="Images/img12.png" alt="Image 6">
+                <p>Curele</p>
+                <button class="card-button">Detalii</button>
+            </div>
+        </div>
+
+
+         
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-navigation">
+            <div class="footer-links">
+              <div class="footer-link-titles">
+                <h3 class="brand-uri-populare">BRAND-URI POPULARE</h3>
+                <img
+                  class="footer-line-icon1"
+                  alt=""
+                  src="./Images/footerline-1.svg"
+                />
+              </div>
+            </div>
+            <div class="brand-logos">
+              <div class="brand-logo-list">
+                <div class="image-43-parent">
+                  <img
+                    class="image-43-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./Images/image-43@2x.png"
+                  />
+
+                  <img
+                    class="image-40-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./Images/image-40@2x.png"
+                  />
+                </div>
+                <div class="image-41-parent">
+                  <img
+                    class="image-41-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./Images/image-41@2x.png"
+                  />
+
+                  <img
+                    class="image-44-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./Images/image-44@2x.png"
+                  />
+                </div>
+                <div class="image-42-parent">
+                  <img
+                    class="image-42-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./Images/image-42@2x.png"
+                  />
+
+                  <img
+                    class="image-45-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./Images/image-45@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="footer-links1">
+              <div class="cele-mai-vndute-parent">
+                <h3 class="cele-mai-vndute">CELE MAI VÂNDUTE</h3>
+                <img
+                  class="footer-line-icon2"
+                  alt=""
+                  src="./Images/footerline-1.svg"
+                />
+              </div>
+            </div>
+            <div class="ecu-tuning">
+              <div class="bg"></div>
+              <div class="product-listing">
+                <div class="listing-header">
+                  <div class="listing-separator"></div>
+                  <div class="filters">
+                    <div class="filter-dropdown">
+                      <a href="produse.html">
+                      <div class="toate">Toate</div>
+                    </a>
+                      <div class="filter-dropdown-inner">
+                        <img
+                          class="group-icon"
+                          alt=""
+                          src="./Images/group-31.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-list">
+                
+<div class="product-section">
+  <div class="product-card">
+    <div class="overlay"></div>
+    <input type="checkbox" class="heart-checkbox" id="heart1">
+    <label for="heart1" class="heart-label">
+        <i class="fa fa-heart"></i>
+    </label>
+    <img src="Images/fot1.png" alt="ShopPro DOT 3 Brake Fluid 32oz">
+    <h3>ShopPro DOT 3 Brake Fluid 32oz</h3>
+    <p class="price">7.99 $</p>
+    <div class="rating">
+        <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+    </div>
+  </div>
+  <div class="product-card">
+    <div class="overlay"></div>
+    <input type="checkbox" class="heart-checkbox" id="heart2">
+    <label for="heart2" class="heart-label">
+        <i class="fa fa-heart"></i>
+    </label>
+    <img src="Images/fot2.png" alt="Prestone Universal Yellow">
+    <h3>Prestone Universal Yellow</h3>
+    <p class="price">9.99 $</p>
+    <div class="rating">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="overlay"></div>
+    <input type="checkbox" class="heart-checkbox" id="heart3">
+    <label for="heart3" class="heart-label">
+        <i class="fa fa-heart"></i>
+    </label>
+      <img src="Images/fot3.png" alt="STP High Mileage Full Synthetic">
+      <h3>STP High Mileage Full Synthetic</h3>
+      <p class="price">7.99 $</p>
+      <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+      </div>
+  </div>
+  <div class="product-card">
+    <div class="overlay"></div>
+    <input type="checkbox" class="heart-checkbox" id="heart4">
+    <label for="heart4" class="heart-label">
+        <i class="fa fa-heart"></i>
+    </label>
+      <img src="Images/fot4.png" alt="STP Extended Life Oil Filter">
+      <h3>STP Extended Life Oil Filter</h3>
+      <p class="price">9.99 $</p>
+      <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+      </div>
+  </div>
+  <div class="product-card">
+    <div class="overlay"></div>
+    <input type="checkbox" class="heart-checkbox" id="heart5">
+    <label for="heart5" class="heart-label">
+        <i class="fa fa-heart"></i>
+    </label>
+      <img src="Images/fot5.png" alt="AGS Sil-Glyde Brake Lubricant">
+      <h3>AGS Sil-Glyde Brake Lubricant</h3>
+      <p class="price">1.99 $</p>
+      <div class="rating">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+      </div>
+  </div>
+</div>
+
+                
+
+                 
+              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <div class="footer1">
+        <a href="home.html">
+            <div class="heading1">
+                <img src="Images/white-logo.png" alt="">
+            </div>
+        </a>
+        <div class="content1">
+            <div class="services1">
+                <h4>Servicii</h4>
+                <p><a href="catalog.html">Catalog-ul</a></p>
+                <p><a href="favorite.html">Favorite</a></p>
+                <p><a href="comanda.html">Comenzi</a></p>
+                <p><a href="login.html">Logare</a></p>
+            </div>
+            <div class="social-media1">
+                <h4>Social</h4>
+                <p>
+                    <a href="#"
+                        ><i class="fab fa-linkedin"></i> Linkedin</a
+                    >
+                </p>
+                <p>
+                    <a href="#"
+                        ><i class="fab fa-twitter"></i> Twitter</a
+                    >
+                </p>
+                <p>
+                    <a href="https://github.com/farazc60"
+                        ><i class="fab fa-github"></i> Github</a
+                    >
+                </p>
+                <p>
+                    <a href="https://www.facebook.com/codewithfaraz"
+                        ><i class="fab fa-facebook"></i> Facebook</a
+                    >
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/codewithfaraz"
+                        ><i class="fab fa-instagram"></i> Instagram</a
+                    >
+                </p>
+            </div>
+            <div class="links1">
+                <h4>Link-uri</h4>
+                <p><a href="home.html">Acasă</a></p>
+                <p><a href="catalog.html">Catalog</a></p>
+                <p><a href="cont.html">Contul meu</a></p>
+                <p><a href="contacte.html">Contacte</a></p>
+            </div>
+            <div class="details1">
+                <h4 class="address1">Adresa</h4>
+                <p>
+                    Căminul Nr 1, Str. Cuza Vodă, Nr. 3/2,<br> <br> Chișinău,
+                    Republica Moldova
+                </p>
+                <h4 class="mobile1">Telefon</h4>
+                <p><a href="#">+373 60 298 920</a></p>
+                <h4 class="mail1">Email</h4>
+                <p><a href="#">ianiovita005@gmail.com</a></p>
+            </div>
+        </div>
+        <footer>
+            <hr />
+            © 2024 Code and Design by Ianik ❤
+        </footer>
+    </div>
+
+    <script src="Scripts/catalog.js"></script>
+    <script src="Scripts/burger.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --body: "Titillium Web";
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --body-size: 16px;
+    --font-size-5xl: 24px;
+    --font-size-lgi: 19px;
+    --font-size-lg: 18px;
+    --font-size-9xl: 28px;
+    --font-size-3xl: 22px;
+  
+    /* Colors */
+    --white: #fff;
+    --color-silver-100: #c7c7c7;
+    --gray-4: #bdbdbd;
+    --color-darkslategray-100: #484848;
+    --color-dodgerblue: #1572d3;
+    --color-cornflowerblue: #3b99fa;
+    --gray-3: #828282;
+    --color-gray-100: #242424;
+    --gray-5: #e0e0e0;
+    --color-whitesmoke-100: #f8f8f8;
+    --gray-6: #f2f2f2;
+    --corporate-secondary: #e24648;
+    --black: #000;
+  
+    /* Gaps */
+    --gap-9xl: 28px;
+    --gap-xl: 20px;
+    --gap-smi: 13px;
+    --gap-37xl: 56px;
+    --gap-2xs: 11px;
+    --gap-2xl: 21px;
+    --gap-10xl: 29px;
+    --gap-mini: 15px;
+    --gap-lg: 18px;
+    --gap-5xs: 8px;
+  
+    /* Paddings */
+    --padding-10xs: 3px;
+    --padding-4xs: 9px;
+    --padding-11xs: 2px;
+    --padding-12xs: 1px;
+    --padding-8xs: 5px;
+    --padding-xl: 20px;
+    --padding-4xl: 23px;
+    --padding-10xl: 29px;
+    --padding-13xl: 32px;
+    --padding-6xl: 25px;
+    --padding-3xs: 10px;
+    --padding-16xl: 35px;
+    --padding-smi: 13px;
+    --padding-7xl: 26px;
+    --padding-60xl: 79px;
+    --padding-56xl: 75px;
+    --padding-mini: 15px;
+    --padding-9xs: 4px;
+    --padding-sm: 14px;
+  
+    /* Border radiuses */
+    --br-2xs-1: 10.1px;
+    --br-xl: 20px;
+    --br-3xs: 10px;
+    --br-5xs: 8px;
+  
+    /* Effects */
+    --product-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  }
+  

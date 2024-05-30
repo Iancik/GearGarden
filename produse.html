@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="Stylesheets/produse.css">
+    <link rel="stylesheet" href="Stylesheets/produse1.css">
+    <link rel="stylesheet" href="Stylesheets/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="Stylesheets/footer.css" />
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <script
+        src="https://kit.fontawesome.com/66aa7c98b3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+     <!-- HEADER -->
+     <header>
+      <div class="page-header">
+          <div class="logo">
+            <a href="home.html">
+            <img src="Images/logo.png" alt="">
+          </a>
+          </div>
+          <a id="menu-icon" class="menu-icon" onclick="onMenuClick()">
+            <i class="fa fa-bars"></i>
+          </a>
+    
+          <div id="navigation-bar" class="nav-bar">
+            <a href="home.html" class="active">Acasă</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="cont.html">Contul meu</a>
+            <a href="contacte.html">Contacte</a>
+          </div>
+
+          <!--Login-->
+          <div class="header-right">
+            <a href="login.html">
+                    <div class="login-container">
+            <div class="login-text">Login</div>
+                </div>
+              </a>
+            <!--Cos-->
+            <div class="element">
+              <a href="cos.html">
+            <img src="Images/cos.png" alt="">
+          </a>
+            </div>
+            <!--Inima-->
+            <div class="element">
+              <a href="favorite.html">
+            <img src="Images/inima.png" alt="">
+          </a>
+            </div>
+        </div>
+        </div>
+    
+  </header>
+
+    <div class="produse">
+      <section class="main-page">
+        <div class="footer-line"></div>
+        <div class="baterii-parent">
+          <b class="baterii">BATERII</b>
+          <div class="battery-filter">
+            <div class="car-filter">
+              <div class="car-filter-child"></div>
+              <img
+                class="mdicar-icon"
+                loading="lazy"
+                alt=""
+                src="./Images/mdicar.svg"
+              />
+
+              <nav class="dropdown-filter">
+                <div class="rectangle-parent">
+                  <div class="frame-child"></div>
+                  <div class="anul">Anul</div>
+                  <div class="icround-arrow-downward-wrapper">
+                    <div class="icround-arrow-downward">
+                      <img
+                        class="vector-icon"
+                        alt=""
+                        src="./Images/icroundarrowdownward.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="rectangle-group">
+                  <div class="frame-item"></div>
+                  <div class="marca">Marca</div>
+                  <div class="icround-arrow-downward-container">
+                    <div class="icround-arrow-downward1">
+                      <img
+                        class="vector-icon1"
+                        alt=""
+                        src="./Images/icroundarrowdownward.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="rectangle-container">
+                  <div class="frame-inner"></div>
+                  <div class="model">Model</div>
+                  <div class="icround-arrow-downward-frame">
+                    <div class="icround-arrow-downward2">
+                      <img
+                        class="vector-icon2"
+                        alt=""
+                        src="./Images/icroundarrowdownward.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="icround-arrow-downward3"></div>
+      <div class="result-header-parent">
+        <div class="result-header">
+          <div class="frame-parent">
+            <div class="brand-parent">
+                <div class="pre">Brand</div>
+              <div class="footer-line1"></div>
+            </div>
+            <div class="result-sort">
+              <div class="din-205-rezultate-container">
+                <b>1-24</b>
+                <span class="din"> din</span>
+                <b> 205 </b>
+                <span class="rezultate">rezultate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sort-filter">
+          <div class="sorteaz-ca-wrapper">
+            <div class="sorteaz-ca">Sortează ca</div>
+          </div>
+          <div class="sort-dropdown">
+            <div class="sort-dropdown-child"></div>
+          
+            <div class="sort-option">
+              <div class="implicit">
+                <select name="sort-options" id="sort-options">
+                  <option value="Implicit">Implicit</option>
+                  <option value="Crescător">Crescător</option>
+                  <option value="Descrescător">Descrescător</option>
+                  <option value="Nouprodus">Produse noi</option>
+                </select>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <section class="product-filter">
+        <div class="filter-options">
+          <div class="brand-filter">
+            <div class="brand-list">
+
+              <div class="brand-item">
+                <input class="brand-info" type="checkbox" />
+                <div class="acdelco-wrapper">
+                  <div class="acdelco">ACDelco</div>
+                </div>
+              </div>
+              <div class="brand-item1">
+                <input class="frame-input" type="checkbox" />
+
+                <div class="duralast-gold-wrapper">
+                  <div class="duralast-gold">Duralast Gold</div>
+                </div>
+              </div>
+              <div class="brand-item2">
+                <input class="frame-input1" type="checkbox" />
+
+                <div class="duralast-platinum-wrapper">
+                  <div class="duralast-platinum">Duralast Platinum</div>
+                </div>
+              </div>
+              <div class="brand-item3">
+                <input class="frame-input2" type="checkbox" />
+
+                <div class="duralast-wrapper">
+                  <div class="duralast">Duralast</div>
+                </div>
+              </div>
+              <div class="brand-item4">
+                <input class="frame-input3" type="checkbox" />
+
+                <div class="econocraft-wrapper">
+                  <div class="econocraft">Econocraft</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filter-labels">
+            <b class="pre">Preț</b>
+            <div class="footer-line2"></div>
+          </div>
+          <div class="price-filter">
+            <div class="price-range">
+              <div class="price-input">
+                <div class="price-value">
+                  <input  type="text" placeholder="0$"></input>
+                  <div class="price-separator">
+                    <div class="la">la</div>
+                  </div>
+                </div>
+                <div class="price-slider">
+                  <div class="slider-track">
+                    <input class="slider-fill" type="checkbox" />
+
+                    <div class="slider-handle">
+                      <div class="handle-value">$80 - $90 (11)</div>
+                    </div>
+                  </div>
+                  <div class="slider-track1">
+                    <input class="frame-input4" type="checkbox" />
+
+                    <div class="wrapper">
+                      <div class="div">$90 - $100 (1)</div>
+                    </div>
+                  </div>
+                  <div class="slider-track2">
+                    <input class="frame-input5" type="checkbox" />
+
+                    <div class="container">
+                      <div class="div1">$100 - $125 (1)</div>
+                    </div>
+                  </div>
+                  <div class="slider-track3">
+                    <input class="frame-input6" type="checkbox" />
+
+                    <div class="frame">
+                      <div class="div2">$125 - $150 (22)</div>
+                    </div>
+                  </div>
+                  <div class="slider-track4">
+                    <input class="frame-input7" type="checkbox" />
+
+                    <div class="frame-div">
+                      <div class="div3">$150 - $175 (2)</div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="inputic">
+                <input class="input" type="text" placeholder="MAX"></input>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+       
+          <div class="card-info">
+           
+            <div class="cardp" data-price="250.99" data-date="2024-05-01">
+                <img src="/Images/bat.png" alt="Duralast Gold Battery">
+                <div class="card-contentp">
+                  <a href="produs1.html">
+                    <div class="card-titlep">Duralast Gold Battery BCI Group Size 140R 480 CCA H4-DLG</div>
+                  </a>
+                    <div class="card-ratingp">
+                        <span>★</span><span>★</span><span>★</span><span class="gray">★</span><span class="gray">★</span>
+                    </div>
+                    <div class="card-checkp">
+                        <img src="Images/masinuta.png" alt=""> Verifică dacă se potrivește
+                    </div>
+                </div>
+                <div class="card-infop">
+                  <div class="card-pricep">250.99 $</div>
+                  <button class="card-buttonp" data-name="Duralast Gold Battery BCI Group Size 140R 480 CCA H4-DLG" data-price="250.99">Comandă</button>
+              </div>
+              
+            </div>
+        
+            <div class="cardp" data-price="80.99" data-date="2024-05-10">
+                <img src="/Images/bat.png" alt="Duralast Gold Battery">
+                <div class="card-contentp">
+                    <div class="card-titlep">Duralast Gold Battery BCI Group Size 140R 480 CCA H4-DLG2</div>
+                    <div class="card-ratingp">
+                        <span>★</span><span>★</span><span>★</span><span class="gray">★</span><span class="gray">★</span>
+                    </div>
+                    <div class="card-checkp">
+                        <img src="Images/masinuta.png" alt=""> Verifică dacă se potrivește
+                    </div>
+                </div>
+                <div class="card-infop">
+                  <div class="card-pricep">80.99 $</div>
+                  <button class="card-buttonp" data-name="Duralast Gold Battery BCI Group Size 140R 480 CCA H4-DLG2" data-price="80.99">Comandă</button>
+              </div>
+              
+            </div>
+            
+        
+            <div class="cardp" data-price="112.99" data-date="2024-05-05">
+                <img src="/Images/bat.png" alt="Duralast Gold Battery">
+                <div class="card-contentp">
+                    <div class="card-titlep">Duralast Gold Battery BCI Group Size 140R 480 CCA H4-DLG1</div>
+                    <div class="card-ratingp">
+                        <span>★</span><span>★</span><span>★</span><span class="gray">★</span><span class="gray">★</span>
+                    </div>
+                    <div class="card-checkp">
+                        <img src="Images/masinuta.png" alt=""> Verifică dacă se potrivește
+                    </div>
+                </div>
+                <div class="card-infop">
+                  <div class="card-pricep">112.99 $</div>
+                  <button class="card-buttonp" data-name="Duralast Gold Battery BCI Group Size 140R 480 CCA H4-DLG1" data-price="112.99">Comandă</button>
+              </div>
+              
+            </div>
+              
+    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="footer1">
+        <a href="home.html">
+            <div class="heading1">
+                <img src="Images/white-logo.png" alt="">
+            </div>
+        </a>
+        <div class="content1">
+            <div class="services1">
+                <h4>Servicii</h4>
+                <p><a href="catalog.html">Catalog-ul</a></p>
+                <p><a href="favorite.html">Favorite</a></p>
+                <p><a href="comanda.html">Comenzi</a></p>
+                <p><a href="login.html">Logare</a></p>
+            </div>
+            <div class="social-media1">
+                <h4>Social</h4>
+                <p>
+                    <a href="#"
+                        ><i class="fab fa-linkedin"></i> Linkedin</a
+                    >
+                </p>
+                <p>
+                    <a href="#"
+                        ><i class="fab fa-twitter"></i> Twitter</a
+                    >
+                </p>
+                <p>
+                    <a href="https://github.com/farazc60"
+                        ><i class="fab fa-github"></i> Github</a
+                    >
+                </p>
+                <p>
+                    <a href="https://www.facebook.com/codewithfaraz"
+                        ><i class="fab fa-facebook"></i> Facebook</a
+                    >
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/codewithfaraz"
+                        ><i class="fab fa-instagram"></i> Instagram</a
+                    >
+                </p>
+            </div>
+            <div class="links1">
+                <h4>Link-uri</h4>
+                <p><a href="home.html">Acasă</a></p>
+                <p><a href="catalog.html">Catalog</a></p>
+                <p><a href="cont.html">Contul meu</a></p>
+                <p><a href="contacte.html">Contacte</a></p>
+            </div>
+            <div class="details1">
+                <h4 class="address1">Adresa</h4>
+                <p>
+                    Căminul Nr 1, Str. Cuza Vodă, Nr. 3/2,<br> <br> Chișinău,
+                    Republica Moldova
+                </p>
+                <h4 class="mobile1">Telefon</h4>
+                <p><a href="#">+373 60 298 920</a></p>
+                <h4 class="mail1">Email</h4>
+                <p><a href="#">ianiovita005@gmail.com</a></p>
+            </div>
+        </div>
+        <footer>
+            <hr />
+            © 2024 Code and Design by Ianik ❤
+        </footer>
+    </div>
+    <script src="Scripts/produse.js">
+    </script>
+    <script src="Scripts/burger.js"></script>
+  </body>
+</html>

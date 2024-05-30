@@ -1,0 +1,797 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    
+}
+a {
+    text-decoration: none;
+}
+
+
+
+.bar {
+    z-index: -1;
+    width: 510px;
+    height: 800px;
+    left: 34%; 
+    top: 0px; 
+    position: absolute;
+    background: linear-gradient(180deg, rgba(21, 114, 211, 0) 0%, rgba(21, 114, 211, 0.33) 100%) 
+}
+
+.nav-text {
+    width: 100%; 
+    max-width: 400px; 
+    left: 30%;
+    top: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #242424;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+    word-wrap: break-word
+}
+
+
+.car-central {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-left-text {
+    width: 359px;
+    height: 212px;
+    left: 963px;
+    top: 209px;
+    position: absolute;
+    color: #484848;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.56px;
+    word-wrap: break-word;
+}
+
+.scroll-button {
+    height: 212px;
+    left: 1200px;
+    top: 400px;
+    position: absolute;
+}
+
+.custom-line {
+    width: 100%;
+    height: 0;
+    left: 0;
+    position: absolute;
+    border: 8px #1572D3 solid;
+}
+
+.gradient-overlay {
+    text-align: center;
+    width: 1400px;
+    height: 700px;
+    left: 69px;
+    top: 800px;
+    position: absolute;
+    background: linear-gradient(180deg, #2F302E 0%, rgba(46.85, 48.01, 45.69, 0) 100%);
+    box-shadow: 50px 50px 50px; 
+    filter: blur(50px);
+}
+
+.auto-brands {
+    position: absolute;
+    margin-left: 30px;
+    top: 130%;
+    opacity: 100%;
+}
+
+.auto-brands:hover {
+    opacity: 100%;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background: #2A2A2A;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    border: 11px #545454 solid;
+    filter: blur(7px);
+    overflow: hidden;
+}
+
+
+
+.services-text {
+    width: 486px; 
+    height: 218px; 
+    left: 400px; 
+    top: 1180px; 
+    position: absolute; 
+    color: white; 
+    font-size: 78px;
+    font-weight: 700; 
+    line-height: 24px; 
+    letter-spacing: 5.07px; 
+    word-wrap: break-word
+}
+
+.services-description {
+   width: 486px; 
+   height: 218px; 
+   left: 800px; 
+   top: 1150px; 
+   position: absolute; 
+   color: white; 
+   font-size: 24px; 
+   font-weight: 400; 
+   line-height: 24px; 
+   letter-spacing: 1.56px; 
+   word-wrap: break-word;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 1200px;
+}
+
+.card {
+    background: #2A2A2A;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    border: 11px #545454 solid;
+    width: 35%;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+.card p {
+    margin-top: -120px;
+    color: white;
+    font-size: 33px;
+    text-align: left;
+    width: 60%; 
+    z-index: 1;
+    margin-left: 200px;
+}
+
+
+.card img {
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
+.card:hover {
+    filter: none;
+    
+}
+
+@media screen and (max-width: 938px) {
+ .noi-oferim {
+  margin-left: 175px;
+ } 
+ .cele
+ .frame-2 {
+  margin-left: 200px;
+ }
+  .find-lower-price-refund {
+    display: none;
+  }
+  .dont-worry-driver {
+    display: none;
+  }
+  .book-your-car {
+    display: none;
+  }
+  .contact-support {
+    display: none;
+  }
+
+  .main-container {
+        margin-top: -450px;
+    }
+    .column {
+      margin-left: -100px;
+      
+    }
+    .auto-brands {
+        display: none;
+    }
+    .custom-footer .footer-content {
+        width: 90%;
+        left: 5%;
+    }
+    .custom-line {
+        display: none;
+    }
+    .services-text {
+        left: 250px;
+         top: 582px;
+    }
+
+    .custom-footer .footer-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .custom-footer .text-big {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .custom-footer .text-small {
+        font-size: 14px;
+    }
+
+    .custom-footer ul li {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .custom-footer td {
+        padding: 0px;
+        text-align: center;
+    }
+    .menu {
+        flex-direction: row; 
+    }
+    .scroll-button
+    {
+        display: none;
+    }
+
+    .nav-text {
+     margin-left: 100px;
+     margin-top: -80px;
+    }
+    .car-central {
+        margin-top: -110px;
+    }
+    .nav-left-text{
+        display: flex;
+        left: 10%;
+        top: 50%;
+        text-align: left;
+        font-size: 4.1vw; 
+        line-height: 1.3; 
+        letter-spacing: 0.1em; 
+    }
+    .card { 
+        width: 100%;
+        top: 20%;
+    }
+    .services-description {
+        left: 196px;
+        top: 691px;
+    }
+    .gradient-overlay {
+        display: none;
+    }
+    .card-container {
+        margin-top: 800px;
+    }
+    .car-central img {
+        width: 40vh;
+    }
+    .car-central {
+        left: 80%;
+        top: 50%;
+    }
+    .bar {
+        display: none;
+    }
+}
+
+
+
+  
+.main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    display: flex;  
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 56px;
+    position: relative;
+    width: 576px;
+  }
+  .frame-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 32px;
+    position: relative;
+    width: 576px;
+  }
+  .button {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 143px;
+    padding: 16px 32px 16px 32px;
+    cursor: pointer;
+    background: rgba(21, 114, 211, 0.1);
+    border: none;
+    z-index: 1;
+    border-radius: 8px;
+  }
+  .de-ce-noi {
+    flex-shrink: 0;
+    position: relative;
+    height: 10px;
+    color: #1572d3;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .noi-oferim {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 576px;
+    min-width: 0;
+    height: 124px;
+    color: #333333;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 49.4px;
+    text-align: left;
+    z-index: 3;
+  }
+  .frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 40px;
+    position: relative;
+    width: 451px;
+    z-index: 4;
+  }
+  .frame-3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    width: 410px;
+    z-index: 5;
+  }
+  .frame-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 40px;
+    position: relative;
+    width: 64px;
+    z-index: 6;
+  }
+  .duck-icon-car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background: #ebf5ff;
+    z-index: 7;
+    border-radius: 16px;
+  }
+  .vuesax-bold-wallet {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 8;
+  }
+  .vuesax-bold-wallet-5 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+  .wallet {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./images/wallet.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 10;
+  }
+  .frame-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    width: 322px;
+    z-index: 11;
+  }
+  .best-price-guaranteed {
+    flex-shrink: 0;
+    position: relative;
+    height: 14px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 12;
+  }
+  .find-lower-price-refund {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 35px;
+    color: #6d6d6d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+  }
+  .frame-7 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    width: 451px;
+    z-index: 14;
+  }
+  .duck-icon-car-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background: #ebf5ff;
+    z-index: 15;
+    border-radius: 16px;
+  }
+  .vuesax-bold-user-tick {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 16;
+  }
+  .vuesax-bold-user-tick-9 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+    z-index: 17;
+  }
+  .user-tick {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./images/user-tick.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 18;
+  }
+  .frame-a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    width: 363px;
+    z-index: 19;
+  }
+  .experience-driver {
+    flex-shrink: 0;
+    position: relative;
+    height: 14px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+  }
+  .dont-worry-driver {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 35px;
+    color: #6d6d6d;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 21;
+  }
+  .frame-b {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    width: 432px;
+    z-index: 22;
+  }
+  .duck-icon-car-c {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 8px;
+      position: relative;
+      width: 64px;
+      height: 64px;
+      background: #ebf5ff;
+      z-index: 23;
+      border-radius: 16px;
+    }
+    .vuesax-bold-support {
+      flex-shrink: 0;
+      position: relative;
+      width: 24px;
+      height: 24px;
+      z-index: 24;
+    }
+    .vuesax-bold-support-d {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 0;
+      left: 0;
+      z-index: 25;
+    }
+    .support {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: url(./images/24-support.png)
+        no-repeat center;
+      background-size: 100% 100%;
+      z-index: 26;
+    }
+    .frame-e {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 24px;
+      position: relative;
+      width: 344px;
+      z-index: 27;
+    }
+    .hour-car-delivery {
+      flex-shrink: 0;
+      position: relative;
+      height: 14px;
+      color: #000000;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 14px;
+      text-align: left;
+      white-space: nowrap;
+      z-index: 28;
+    }
+    .book-your-car {
+      flex-shrink: 0;
+      flex-basis: auto;
+      position: relative;
+      height: 35px;
+      color: #6d6d6d;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      white-space: nowrap;
+      z-index: 29;
+    }
+    .frame-f {
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 24px;
+      position: relative;
+      width: 437px;
+      z-index: 30;
+    }
+    .duck-icon-car-10 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 8px;
+      position: relative;
+      width: 64px;
+      height: 64px;
+      background: #ebf5ff;
+      z-index: 31;
+      border-radius: 16px;
+    }
+    .vuesax-bold-messages {
+      flex-shrink: 0;
+      position: relative;
+      width: 24px;
+      height: 24px;
+      z-index: 32;
+    }
+    .vuesax-bold-messages-11 {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 0;
+      left: 0;
+      z-index: 33;
+    }
+    .messages {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+
+      z-index: 34;
+    }
+    .frame-12 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 24px;
+      position: relative;
+      width: 349px;
+      z-index: 35;
+    }
+    .technical-support {
+      flex-shrink: 0;
+      position: relative;
+      height: 14px;
+      color: #000000;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 14px;
+      text-align: left;
+      white-space: nowrap;
+      z-index: 36;
+    }
+    .contact-support {
+      flex-shrink: 0;
+      flex-basis: auto;
+      position: relative;
+      color: #6d6d6d;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      white-space: nowrap;
+      z-index: 37;
+    }
+
+  .gradient-unu { 
+    background: linear-gradient(180deg, rgba(21, 114, 211, 0.30) 0%, rgba(46.85, 48.01, 45.69, 0) 100%);
+    box-shadow: 50px 50px 50px; filter: blur(50px);
+    z-index: -1;
+  }
+  
+  .head {  
+    display: grid;
+    margin-top: 950px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Image Content";
+   
+  }
+  
+  .Image { grid-area: Image; }
+  
+  .Content { grid-area: Content;
+  margin-top: 20px; }
+  
+  :root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+}
+
+.piesa {
+  color: #1572D3;
+}
+

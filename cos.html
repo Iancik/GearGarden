@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="Stylesheets/fav-cos-com.css">
+    <link rel="stylesheet" href="Stylesheets/general.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="Stylesheets/footer.css" />
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="page-header">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="Images/logo.png" alt="">
+                </a>
+            </div>
+            <a id="menu-icon" class="menu-icon" onclick="onMenuClick()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div id="navigation-bar" class="nav-bar">
+                <a href="home.html" class="active">Acasă</a>
+                <a href="catalog.html">Catalog</a>
+                <a href="cont.html">Contul meu</a>
+                <a href="contacte.html">Contacte</a>
+            </div>
+            <!-- Login -->
+            <div class="header-right">
+                <a href="login.html">
+                    <div class="login-container">
+                        <div class="login-text">Login</div>
+                    </div>
+                </a>
+                <!-- Cos -->
+                <div class="element">
+                    <a href="cos.html">
+                        <img src="Images/cos.png" alt="">
+                    </a>
+                </div>
+                <!-- Inima -->
+                <div class="element">
+                    <a href="favorite.html">
+                        <img src="Images/inima.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div class="favorite-cont">
+        <div class="favorite-cont-inner">
+            <div class="antetdefault-parent">
+                <div class="user-greeting-parent-wrapper">
+                    <div class="welcome-container">
+                        <span>Bine ați venit:</span>
+                        <div class="name">Ian</div>
+                        <div class="badge">PARTNER</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="content-parent-parent">
+            <div class="content-parent">
+                <div class="content-parent-inner">
+                    <div class="nav-container">
+                        <a href="cont.html">
+                            <div class="nav-item">Informație despre cont</div>
+                        </a>
+                        <div class="nav-item active">Comenzi</div>
+                        <a href="favorite.html">
+                            <div class="nav-item">Favorite</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-cards-parent-wrapper">
+                <div class="table-container">
+                    <table id="cart-table">
+                        <thead>
+                            <tr>
+                                <th>NUMĂRUL</th>
+                                <th>DATA</th>
+                                <th>PREȚ TOTAL</th>
+                                <th>DESCRIERE</th>
+                                <th>STATUT</th>
+                                <th>CANTITATE</th>
+                                <th>DETALII</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Produsele vor fi adăugate aici din local storage -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer1">
+        <a href="home.html">
+            <div class="heading1">
+                <img src="Images/white-logo.png" alt="">
+            </div>
+        </a>
+        <div class="content1">
+            <div class="services1">
+                <h4>Servicii</h4>
+                <p><a href="catalog.html">Catalog-ul</a></p>
+                <p><a href="favorite.html">Favorite</a></p>
+                <p><a href="comanda.html">Comenzi</a></p>
+                <p><a href="login.html">Logare</a></p>
+            </div>
+            <div class="social-media1">
+                <h4>Social</h4>
+                <p>
+                    <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                </p>
+                <p>
+                    <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                </p>
+                <p>
+                    <a href="https://github.com/farazc60"><i class="fab fa-github"></i> Github</a>
+                </p>
+                <p>
+                    <a href="https://www.facebook.com/codewithfaraz"><i class="fab fa-facebook"></i> Facebook</a>
+                </p>
+                <p>
+                    <a href="https://www.instagram.com/codewithfaraz"><i class="fab fa-instagram"></i> Instagram</a>
+                </p>
+            </div>
+            <div class="links1">
+                <h4>Link-uri</h4>
+                <p><a href="home.html">Acasă</a></p>
+                <p><a href="catalog.html">Catalog</a></p>
+                <p><a href="cont.html">Contul meu</a></p>
+                <p><a href="contacte.html">Contacte</a></p>
+            </div>
+            <div class="details1">
+                <h4 class="address1">Adresa</h4>
+                <p>
+                    Căminul Nr 1, Str. Cuza Vodă, Nr. 3/2,<br> <br> Chișinău,
+                    Republica Moldova
+                </p>
+                <h4 class="mobile1">Telefon</h4>
+                <p><a href="#">+373 60 298 920</a></p>
+                <h4 class="mail1">Email</h4>
+                <p><a href="#">ianiovita005@gmail.com</a></p>
+            </div>
+        </div>
+        <footer>
+            <hr />
+            © 2024 Code and Design by Ianik ❤
+        </footer>
+    </div>
+
+    <script src="Scripts/cos.js"></script>
+    <script src="Scripts/burger.js"></script>
+</body>
+</html>
